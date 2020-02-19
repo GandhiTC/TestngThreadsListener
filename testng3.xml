@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite 3 - More Total Tests Than Max Number Of Methods In A Class"> 
+	
+	<listeners>
+		<listener class-name="com.github.GandhiTC.java.TestngThreadsListener.listeners.TestngThreadsListener" />
+	</listeners>
+	
+	<test name="Test 3a">
+		<classes>
+			<class name="com.github.GandhiTC.java.TestngThreadsListener.tests.TestClass3" />
+		</classes>
+	</test>
+	
+	<test name="Test 3b">
+		<classes>
+			<class name="com.github.GandhiTC.java.TestngThreadsListener.tests.TestClass4" />
+		</classes>
+	</test>
+	
+	<test name="Test 3c">
+		<classes>
+			<class name="com.github.GandhiTC.java.TestngThreadsListener.tests.TestClass5" />
+		</classes>
+	</test>
+	
+</suite>

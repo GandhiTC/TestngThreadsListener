@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite 2 - Nested Suites, Single Test Per, Single Class Per - Child A">
+
+	<test name="Test 2a">
+		<classes>
+			<class name="com.github.GandhiTC.java.TestngThreadsListener.tests.TestClass1" />
+		</classes>
+	</test>
+	
+</suite>
